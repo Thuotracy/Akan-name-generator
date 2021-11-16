@@ -2,6 +2,8 @@ body{
     background-color:cornsilk;
     font-size: large;
     font-style: inherit;
+    background-image: url(image/pexels-julie-holmes-51809.jpg);
+    background-size: 100% 150%;
 }
 
 h1{
@@ -35,17 +37,5 @@ input[type="number"]{
     border-color:steelblue;
 }
 
-input[type="Submit"]{
-    width: 340px;
-    height: 35px;
-    background-color: steelblue;
-    border: none;
-    color:white;
-    font-weight: bold;
-    display: block;
-    font-size: 15px;
-    cursor: pointer;
-    
 
-}
 

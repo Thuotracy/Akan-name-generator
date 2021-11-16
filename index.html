@@ -25,26 +25,52 @@
     <p>Alot of people know their birthday's but have no idea which day they were born. This application calculates the information you enter below and tells you the exact day you were born.</p>
 </div>
 
+<!-- form -->
     <div class="three">
-        <p>Please fill the form below:</p>
-
+        <p> <strong>Fill the form:</strong></p>
     </div>
 
-    <form action="#" method="post" id="my-from">
+<!-- year of birth -->
+<form>
+    <div>
+      <label>Year of Birth</label>
+      <div >
+        <input type="number"  id="year" required>
+      </div>
+    </div>
 
-        <input type="number" placeholder="Centuary"><br>
-    
-        <input type="number" placeholder="Year"><br>
-    
-        <input type="number" placeholder="Month"/><br>
-    
-        <input type="number" placeholder="Day"><br>
-    
-        <input type="submit" value="Submit">
-            
-            </form>
+<!-- Month -->
+    <div>
+      <label>Month</label>
+      <div>
+        <input type="number"  id="month" required>
+      </div>
+    </div>
 
-</div>
+<!-- Day -->
+    <div>
+      <label>Day</label>
+      <div>
+        <input type="number"  id="day">
+    </div>
+
+<!-- Gender selection -->
+     <div>
+       <label>Select Gender</label> <br>
+      <select id="gender">
+        <option value="select-gender">select gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+      <div class="col-md-10">
+        <div class="form-check"><br/>
+          
+        </div>
+      </div>
     
-</body>
+      <div class="button">
+        <button onclick= "generateAkan()" type="button" id = submit >Generate  </button>
+      </div>
+    
+  </form>
 </html>
