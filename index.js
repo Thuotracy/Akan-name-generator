@@ -14,7 +14,7 @@ function generateAkan(){
   }
   else if (gender == "female"){
     let name = femaleNames[birthDate]
-    alert ("You were born on" +  dateString + "Your Akan Name is" + name)
+    alert ("You were born on" + " " + dateString + "Your Akan Name is" + " " + name
   }
   else {
     alert("Please select gender")
